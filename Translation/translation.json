@@ -1,7 +1,7 @@
 {
   "errors": {},
   "texts": {
-    "@" : {
+    "mention" : {
       "br": "**[ $randomText[🌟;⭐;✨] ] ›** Olá, eu sou o **$username[$botID]** e estou aqui para sua diversão e com várias funcionalidades. Meu prefixo é **`l.`**, para ver meus comandos utilize **`l.ajuda`**."
       "en": "**[ $randomText[🌟;⭐;✨] ] ›** Hii, I'm **$username[$botID]** and I'm here for your fun and with a lot of functions. My prefix is **`l.`**, to see my commands use **`l.help`**."
     }
