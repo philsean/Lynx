@@ -4,6 +4,28 @@
     "@": {
       "br": "**[ $randomText[🌟;⭐;✨] ] ›** Olá, eu sou o **$username[$botID]** e estou aqui para sua diversão e com várias funcionalidades. Meu prefixo é **`l.`**, para ver meus comandos utilize **`l.ajuda`**.",
       "en": "**[ $randomText[🌟;⭐;✨] ] ›** Hii, I'm **$username[$botID]** and I'm here for your fun and with a lot of functions. My prefix is **`l.`**, to see my commands use **`l.help`**."
+    },
+    "botinfo": {
+      "pt": {
+        "description": "> Olá de novo internauta, gostaria de agradecê-lo por fazer parte do $username[$botID], e incentivando-me a continuar. Eu ainda não tenho servidor oficial, mas caso você queira dar uma sugestão ou relatar algum problema, use o menu abaixo. 💙✨\n\n** › Comandos:** $commandsCount\n** › Servidores:** $serverCount\n** › Membros:** $allMembersCount",
+        "footer": "Criado com 💙 por",
+        "button": {
+          "suggest": { "label": "Sugestão", "desc": "Que tal me ajudar a ser cada vez melhor?" },
+          "report": { "label": "Reportar", "desc": "Reporte um erro ou um usuário." },
+          "beta": { "label": "Requisição ( Beta Tester )", "desc": "Você pode testar os comandos antes que todo mundo." },
+          "add": { "desc": "Me adicione no seu servidor." }
+        }
+      },
+      "en": {
+        "description": "> Hello again internet user, I would like to thank you for being part of the $username[$botID], and encouraging me to continue. I don't have an official server yet, but if you want to give a suggestion or report any problem, use the menu below. 💙✨ \n\n** › Commands:** $commandsCount\n** › Servers:** $serverCount\n** › Members:** $allMembersCount",
+        "footer": "Created with 💙 by",
+        "button": {
+          "suggest": { "label": "Suggestion", "desc": "How about helping me to be better and better?" },
+          "report": { "label": "Report", "desc": "Report a bug or a user." },
+          "beta": { "label": "Request ( Beta Test )", "desc": "You can test the commands before everyone else." },
+          "add": { "desc": "Add me to your server." }
+        }
+      }
     }
   }
 }
