@@ -1,7 +1,7 @@
 $var[prefix;$getServerVar[prefix]]
 $onlyIf[$checkContains[%$message[1];%$var[prefix]]==true;]
 $var[cmd;$toLowercase[$replaceText[$message[1];$var[prefix];;1]]]
-$onlyIf[$checkContains[%$var[alias]%;%$var[cmd]%]==true;]
+$onlyIf[$checkContains[%$replaceText[$var[alias];,;%]%;%$var[cmd]%]==true;]
 $onlyIf[$getVar[blacklist;$authorID]=={};]
 $textSplit[$message; ] $removeSplitTextElement[1] $var[msg;$joinSplitText[ ]]
 $httpGet[$getVar[bot.tr]]
