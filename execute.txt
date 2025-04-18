@@ -1,8 +1,8 @@
-$try $await[command] $catch $reply $if[$checkContains[$error[command];only]] $error[message] $else $textSplit[$getVar[bot.channels];/] $var[ch;$splitText[1]] $var[err;$sendEmbedMessage[$var[ch];`$getMessage[$channelID;$messageID;content]`;$error[command];https://discord.com/channels/$guildID/$channelID/$messageID;$error[message]
+$reply $if[$checkContains[$error[command];only]] $error[message] $else $textSplit[$getVar[bot.channels];/] $var[ch;$splitText[1]] $var[err;$sendEmbedMessage[$var[ch];`$getMessage[$channelID;$messageID;content]`;$error[command];https://discord.com/channels/$guildID/$channelID/$messageID;$error[message]
 _ _
 $error[source]
 _ _
 $error[row]
 _ _
 $error[column];#FF6961;$serverName[$guildID];$serverIcon;$displayName ( @$username ) [ $authorID \];$authorAvatar;;;yes;yes]]
-<a:lynx_angry:1358425655838244966> › Algo deu errado ao executar este comando, por favor tente novamente. $addButton[no;error-$var[ch]-$var[err];Ver erro (Desenvolvedores);danger;no;⚠️] $endif $endif $endtry
+<a:lynx_angry:1358425655838244966> › Algo deu errado ao executar este comando, por favor tente novamente. $addButton[no;error-$var[ch]-$var[err];Ver erro (Desenvolvedores);danger;no;⚠️] $endif $endif
